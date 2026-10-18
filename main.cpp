@@ -17,7 +17,11 @@ int main() {
     cout << "Symulacja dla 1.5 TSI (skrzynia 6-biegowa)" << endl;
     cout << "----------------------------" << endl;
 
-    int currentRpm = 3000;
+    // Dodany komunikat o modyfikacji
+    cout << "--> Wgrano nowa mape silnika (Stage 1) <--" << endl;
+    cout << "----------------------------" << endl;
+
+    int currentRpm = 6000;
     
     // Przełożenia dla kolejnych biegów (1-6)
     double gearRatios[] = {3.78, 2.12, 1.36, 1.03, 0.86, 0.73};
